@@ -33,23 +33,18 @@ body {
 }
 
 #text {
-  font-size: 16px;
+  font-size: 32px; /* Önceki boyuttan 3 kat büyük */
   font-weight: bold;
   position: absolute;
-  top: 160px;
-  left: 80px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; /* Metni ortala */
 }
 
-#controls {
+#date {
   position: absolute;
   bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-#controls button {
-  font-size: 20px;
-  width: 40px;
-  height: 40px;
-  margin: 5px;
+  left: 10px;
+  font-size: 14px;
 }
